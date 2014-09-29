@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="ESBasic.ObjectManagement.Increasing&#xD;&#xA;ESBasic.ObjectManagement.Trees.Multiple">
+    <Position X="0.5" Y="0.5" Height="0.469" Width="10.19" />
+  </Comment>
+  <Class Name="ESBasic.ObjectManagement.Cache.HiberarchyCache&lt;TVal&gt;">
+    <Position X="3.5" Y="5.25" Width="2" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAFMAAAABAAEBQBASAAIAAQQAAAQAAAAQAAABAAAQAA=</HashCode>
+      <FileName>ObjectManagement\Cache\Hiberarchy\HiberarchyCache.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="agileMultiTree" />
+      <Field Name="objectRetriever" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ESBasic.ObjectManagement.Increasing.IncreaseAutoRetriever&lt;TSourceToken, TRoundID, TKey, TVal&gt;" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="4.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAACAIQAAAAIAAEAABgAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectManagement\Increasing\Retriver\IncreaseAutoRetriever.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PhaseIncreaseAccesser" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ESBasic.ObjectManagement.Increasing.Management.RoundCacheManager&lt;TSourceToken, TRoundID, TRoundCache, TRoundIncreasingCache, TKey, TVal&gt;">
+    <Position X="7" Y="1.25" Width="5.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AQAAEEAIAEBCgQCAAAhAAAACIAAAAQAQAAAFAACAgQA=</HashCode>
+      <FileName>ObjectManagement\Increasing\Management\RoundCacheManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="IncreaseAutoRetriever" />
+      <Property Name="RoundCachePersister" />
+    </ShowAsAssociation>
+  </Class>
+  <Interface Name="ESBasic.ObjectManagement.Trees.Multiple.IAgileNodePicker&lt;TVal&gt;">
+    <Position X="0.5" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectManagement\Trees\Multiple\Agile\IAgileNodePicker.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ESBasic.ObjectManagement.Trees.Multiple.IMultiTree&lt;TVal&gt;">
+    <Position X="0.5" Y="1.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAASAACAAAAAQAAAAAAAAAAAAIAAAACAE=</HashCode>
+      <FileName>ObjectManagement\Trees\Multiple\IMultiTree.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ESBasic.ObjectManagement.Trees.Multiple.IAgileMultiTree&lt;TVal&gt;">
+    <Position X="3.5" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAQAAAAAAAAAAgAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>ObjectManagement\Trees\Multiple\Agile\IAgileMultiTree.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AgileNodePicker" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="ESBasic.ObjectManagement.IObjectRetriever&lt;Tkey, TVal&gt;">
+    <Position X="0.5" Y="5.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>ObjectManagement\IObjectRetriever.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ESBasic.ObjectManagement.Increasing.IPhaseIncreaseAccesser&lt;TSourceToken, TRoundID, TKey, TVal&gt;">
+    <Position X="5.75" Y="6.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAEAAAABAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectManagement\Increasing\Retriver\IPhaseIncreaseAccesser.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ESBasic.ObjectManagement.Increasing.IIncreaseAutoRetriever&lt;TSourceToken, TRoundID, TKey, TVal&gt;" Collapsed="true">
+    <Position X="10.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAIAAEAABgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectManagement\Increasing\Retriver\IIncreaseAutoRetriever.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ESBasic.ObjectManagement.Increasing.Management.IRoundCachePersister&lt;TRoundID, TRoundCache&gt;">
+    <Position X="3.5" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAEAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>ObjectManagement\Increasing\Management\IRoundCachePersister.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ESBasic.ObjectManagement.Cache.IHiberarchyVal">
+    <Position X="2.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>ObjectManagement\Cache\Hiberarchy\IHiberarchyVal.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ESBasic.ObjectManagement.Trees.Multiple.IMTreeVal">
+    <Position X="0.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAQAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectManagement\Trees\Multiple\IMTreeVal.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="宋体" Size="9" />
+</ClassDiagram>

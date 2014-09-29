@@ -1,0 +1,11 @@
+F:\Download\ESBasic\ESBasic\bin\Debug\ESBasic.XML
+F:\Download\ESBasic\ESBasic\bin\Debug\ESBasic.dll
+F:\Download\ESBasic\ESBasic\bin\Debug\ESBasic.pdb
+F:\Download\ESBasic\ESBasic\obj\Debug\ESBasic.csprojResolveAssemblyReference.cache
+F:\Download\ESBasic\ESBasic\obj\Debug\ESBasic.Threading.Timers.RichTimer.TimerConfigure.resources
+F:\Download\ESBasic\ESBasic\obj\Debug\ESBasic.Widget.AgileProgressBar.resources
+F:\Download\ESBasic\ESBasic\obj\Debug\ESBasic.Widget.EnumComboBox.resources
+F:\Download\ESBasic\ESBasic\obj\Debug\ESBasic.Widget.ExListView.resources
+F:\Download\ESBasic\ESBasic\obj\Debug\ESBasic.csproj.GenerateResource.Cache
+F:\Download\ESBasic\ESBasic\obj\Debug\ESBasic.dll
+F:\Download\ESBasic\ESBasic\obj\Debug\ESBasic.pdb

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="ESBasic.ObjectManagement&#xD;&#xA;ESBasic.ObjectManagement.Pool&#xD;&#xA;ESBasic.ObjectManagement.Cache">
+    <Position X="0.5" Y="0.5" Height="0.635" Width="10.19" />
+  </Comment>
+  <Class Name="ESBasic.ObjectManagement.Circle&lt;T&gt;">
+    <Position X="2.5" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BAAIIkAAAAAAAAABAADAAAQCAAAIAQAAKAACAAAAAAA=</HashCode>
+      <FileName>ObjectManagement\Basic\Circle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESBasic.ObjectManagement.FixedQueue&lt;T&gt;" BaseTypeListCollapsed="true">
+    <Position X="4.25" Y="1.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAEIAAAAAJAAAQCAAIABAAAAAAAAABCAAA=</HashCode>
+      <FileName>ObjectManagement\Basic\FixedQueue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESBasic.ObjectManagement.UniqueObjectList&lt;T&gt;" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAIAAAAACABAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>ObjectManagement\Basic\UniqueObjectList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ESBasic.ObjectManagement.Pool.IObjectPool&lt;TObject&gt;">
+    <Position X="0.5" Y="4.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>CAAgACAAAACAAQAAAAAAAAAAACAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectManagement\Pool\IObjectPool.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PooledObjectCreator" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="ESBasic.ObjectManagement.Pool.IPooledObjectCreator&lt;TObject&gt;">
+    <Position X="4.75" Y="4.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectManagement\Pool\IPooledObjectCreator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ESBasic.ObjectManagement.Cache.ISmartDictionaryCache&lt;Tkey, TVal&gt;">
+    <Position X="11.75" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAEAQBAQAAAAAQAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectManagement\Cache\SmartDictionary\ISmartDictionaryCache.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ESBasic.ObjectManagement.Cache.IHotCache&lt;TKey, TObject&gt;">
+    <Position X="9" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAATBAQAAABAQAIAAAIAAAAAAAAABAAAI=</HashCode>
+      <FileName>ObjectManagement\Cache\Hot\IHotCache.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ESBasic.ObjectManagement.Cache.IBidirectionalMapping&lt;T1, T2&gt;">
+    <Position X="6.25" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAYAAAAAQIAAAAQAAAAAAAAAAASQA=</HashCode>
+      <FileName>ObjectManagement\Cache\BidirectionalMapping\IBidirectionalMapping.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

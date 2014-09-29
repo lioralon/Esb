@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ESBasic.Threading.Application.CircleTaskSwitcher&lt;TaskType&gt;" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAASAAQgAAAAICAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Threading\Application\CircleTaskSwitcher.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ESBasic.Threading.Application.HeartBeatChecker" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAQAACAAAAAAAAAQAAEAgAAAIAABAEAA=</HashCode>
+      <FileName>Threading\Application\HeartBeatChecker.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ESBasic.Threading.Engines.AgileCircleEngine" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Threading\Engines\CycleEngine\AgileCircleEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESBasic.Threading.Engines.BaseCycleEngine" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgAAABAAACCAABAAAAAAQAAYAAAAAAAAIAAAAAAABAA=</HashCode>
+      <FileName>Threading\Engines\CycleEngine\BaseCycleEngine.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ESBasic.Threading.Engines.SequentialEngine" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Events" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AABwKBAAIRABIQIABAEBBAAAAAgAAAAJIAA4QEBAAQI=</HashCode>
+      <FileName>Threading\Engines\SequentialEngine\SequentialEngine.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="engineTacheList" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ESBasic.Threading.Engines.BriefWorkerEngine&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="3" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAEIAAACAAIAAAgAAAAAAAAAAAQAAABAAAACACAAA=</HashCode>
+      <FileName>Threading\Engines\WorkerEngine\BriefWorkerEngine.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ESBasic.Threading.Engines.WorkerEngine&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAIAAIAAQiQAAQBACAQAAAgAAAIAQAAAIAAAACACAAA=</HashCode>
+      <FileName>Threading\Engines\WorkerEngine\WorkerEngine.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ESBasic.Threading.Synchronize.LockingObject" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.5" Y="5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAEAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Threading\Synchronize\LockingObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ESBasic.Threading.Synchronize.SmartRWLocker" Collapsed="true">
+    <Position X="5.5" Y="4" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Threading\Synchronize\SmartRWLocker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESBasic.Threading.Timers.Notification.CallbackTask&lt;T&gt;" Collapsed="true">
+    <Position X="7.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAgABACIAAAAgAAAAAAAAIAAAACAAAQAA=</HashCode>
+      <FileName>Threading\Timers\NotifyTimer\CallbackTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESBasic.Threading.Timers.Notification.NotifyTimer&lt;T&gt;" Collapsed="true">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAMAAAAAQCAAAAAAAAAAAgAAAAAAIA=</HashCode>
+      <FileName>Threading\Timers\NotifyTimer\NotifyTimer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="dicTask" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ESBasic.Threading.Timers.RichTimer.TimerConfiguration" Collapsed="true">
+    <Position X="3.25" Y="6" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BAAgAIBKJCIAAAABggAAAgIAAAAAAKIBAAAmAAgAAiA=</HashCode>
+      <FileName>Threading\Timers\RichTimer\TimerConfiguration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESBasic.Threading.Timers.RichTimer.TimerConfigure" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="6.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EBAAAAAAAGQQgBAEAACAACCKAAAEAAAAIAAQBAASCAA=</HashCode>
+      <FileName>Threading\Timers\RichTimer\TimerConfigure.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ESBasic.Threading.Timers.RichTimer.TimerTaskManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="4" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAAFAAAKIAIQACAQAAAEAAAIAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Threading\Timers\RichTimer\TimerTaskManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="dicTimerContent" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ESBasic.Threading.Timers.RichTimer.TimerTask" Collapsed="true">
+    <Position X="3.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAIAQAgAIAAQACAAAQAAAAEAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Threading\Timers\RichTimer\TimerTask.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="contentDetail" />
+    </ShowAsAssociation>
+  </Class>
+  <Interface Name="ESBasic.Threading.Engines.IEngineTache" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABwCAAAAAABAUAAlAAAAAAAAAAAAAAAIAAAQAAAAAA=</HashCode>
+      <FileName>Threading\Engines\SequentialEngine\IEngineTache.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="宋体" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="宋体" Size="9" />
+  <Class Name="ESBasic.Threading.Timers.RichTimer.TimerTask">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Timers\RichTimer\TimerTask.cs</FileName>
+      <HashCode>AAAAACAIAQAgAIAAQACAAAQAAAAEAAAAAAAAQAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="contentDetail" />
+    </ShowAsAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="ESBasic.Threading.Timers.RichTimer.TimerConfiguration">
+    <Position X="6.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>Timers\RichTimer\TimerConfiguration.cs</FileName>
+      <HashCode>BAAgAIBKJCIAAAABggAAAgIAAAAAAKIBAAAmAAgAAiA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="RichTimerType" />
+    </ShowAsAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="ESBasic.Threading.Timers.Notification.CallbackTask&lt;T&gt;">
+    <Position X="2.5" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <FileName>Timers\NotifyTimer\CallbackTask.cs</FileName>
+      <HashCode>AABAAAAAAAAAgABACIAAAAgAAAAAAAAIAAAACAAAQAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Interface Name="ESBasic.Threading.Timers.RichTimer.ITimerTaskManager">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Timers\RichTimer\ITimerTaskManager.cs</FileName>
+      <HashCode>AAAAAEAAAIIAAQAAAQAAAAAAAIAEAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="TimerTaskList" />
+    </ShowAsCollectionAssociation>
+  </Interface>
+  <Interface Name="ESBasic.Threading.Timers.Notification.INotifyTimer&lt;T&gt;">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Timers\NotifyTimer\INotifyTimer.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAQAEAAAAAQAIAAAAAAACAAgAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ESBasic.Threading.Timers.RichTimer.RichTimerType">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Timers\RichTimer\RichTimerType.cs</FileName>
+      <HashCode>AAAABAAAAABAAAACAAAAAAQAAAAABAAAAIAAAAEAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>

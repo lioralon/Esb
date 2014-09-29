@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="宋体" Size="9" />
+  <Class Name="ESBasic.Threading.Engines.BaseCycleEngine" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Engines\CycleEngine\BaseCycleEngine.cs</FileName>
+      <HashCode>BgAAABAAACCAABAAAAAAQAAYAAAAAAAAIAAAAAAABAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ESBasic.Threading.Engines.BaseEngineTache" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <FileName>Engines\SequentialEngine\BaseEngineTache.cs</FileName>
+      <HashCode>AAJwCAAAAAABAUAAlAAAABAAAAAAAAIAIAAgQAAAIAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Events" Collapsed="true" />
+    </Compartments>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ESBasic.Threading.Engines.SequentialEngine" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>Engines\SequentialEngine\SequentialEngine.cs</FileName>
+      <HashCode>AABwKBAAIRABIQIABAEBBAAAAAgAAAAJIAA4QEBAAQI=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Events" Collapsed="true" />
+    </Compartments>
+    <Lollipop Position="0.21" Collapsed="true" />
+  </Class>
+  <Class Name="ESBasic.Threading.Engines.WorkerEngine&lt;T&gt;" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>Engines\WorkerEngine\WorkerEngine.cs</FileName>
+      <HashCode>BAIAAIAAQiQAAQBACAQAAAgAAAIAQAAAIAAAACACAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="WorkProcesser" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="agileCircleEngines" />
+    </ShowAsCollectionAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ESBasic.Threading.Engines.AgileCircleEngine">
+    <Position X="4.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Engines\CycleEngine\AgileCircleEngine.cs</FileName>
+      <HashCode>AAAAAAAAAACAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="engineActor" />
+    </ShowAsAssociation>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Interface Name="ESBasic.Threading.Engines.ICycleEngine">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Engines\CycleEngine\ICycleEngine.cs</FileName>
+      <HashCode>AAAAAAAAACAAABAAAAAAQAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ESBasic.Threading.Engines.IEngineTache">
+    <Position X="0.5" Y="6" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Engines\SequentialEngine\IEngineTache.cs</FileName>
+      <HashCode>AABwCAAAAAABAUAAlAAAAAAAAAAAAAAAIAAAQAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Events" Collapsed="true" />
+    </Compartments>
+  </Interface>
+  <Interface Name="ESBasic.Threading.Engines.IEngineTacheUtil">
+    <Position X="2.5" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>Engines\SequentialEngine\IEngineTacheUtil.cs</FileName>
+      <HashCode>AAAAAAAAIAAAIAAAAAAABAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ESBasic.Threading.Engines.ISequentialEngine">
+    <Position X="0.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Engines\SequentialEngine\ISequentialEngine.cs</FileName>
+      <HashCode>AAAwKAAAABABAQAABAAABAAAAAAAAAAIIAAIQAAAAQA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Events" Collapsed="true" />
+    </Compartments>
+  </Interface>
+  <Interface Name="ESBasic.Threading.Engines.IWorkerEngine&lt;T&gt;">
+    <Position X="8.25" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>Engines\WorkerEngine\IWorkerEngine.cs</FileName>
+      <HashCode>BAIAAAAAAiAAAQAACAQAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ESBasic.Threading.Engines.IWorkProcesser&lt;T&gt;" Collapsed="true">
+    <Position X="8.25" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <FileName>Engines\WorkerEngine\IWorkProcesser.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ESBasic.Threading.Engines.IEngineActor">
+    <Position X="4.75" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Engines\CycleEngine\AgileCircleEngine.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+</ClassDiagram>
